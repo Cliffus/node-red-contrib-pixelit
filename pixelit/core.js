@@ -370,7 +370,7 @@ module.exports = (red) => {
                                 "User-Agent": "Node_Red_Core",
                                 "Content-type": "application/json; charset=utf-8",
                             },
-                            timeout: 1000,
+                            timeout: 10000,
                         });
                     } catch (error) {
                         node.status({
@@ -397,7 +397,7 @@ module.exports = (red) => {
                                 "User-Agent": "Node_Red_Core",
                                 "Content-type": "application/json; charset=utf-8",
                             },
-                            timeout: 1000,
+                            timeout: 10000,
                         });
                     } catch (error) {
                         node.status({
